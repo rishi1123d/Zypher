@@ -63,6 +63,33 @@ module.exports = {
       fontFamily: {
         'sans': ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
+      animation: {
+        'progress-indeterminate': 'progress-indeterminate 1.5s infinite ease-in-out',
+        'pulse-ping': 'pulse-ping 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'float': 'float 4s ease-in-out infinite',
+      },
+      keyframes: {
+        'progress-indeterminate': {
+          '0%': { transform: 'translateX(-100%)', width: '70%' },
+          '100%': { transform: 'translateX(130%)', width: '70%' },
+        },
+        'pulse-ping': {
+          '0%': { transform: 'scale(0.95)', opacity: '1' },
+          '70%': { transform: 'scale(1)', opacity: '0.7' },
+          '100%': { transform: 'scale(0.95)', opacity: '1' },
+        },
+        'float': {
+          '0%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+          '100%': { transform: 'translateY(0px)' },
+        },
+      },
+      backgroundOpacity: {
+        '5': '0.05',
+        '10': '0.1',
+        '15': '0.15',
+        '20': '0.2',
+      },
     },
   },
   plugins: [],

@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="Privacy-preserving identity verification using zero-knowledge proofs" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/style.css" />
       </Head>
       <ClientProviders>
         <Component {...pageProps} />
