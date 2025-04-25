@@ -12,19 +12,18 @@
     "next": "14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@privy-io/react-auth": "^1.0.0",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.87.6",
     "tailwindcss": "^3.4.1",
     "postcss": "^8.4.35",
     "autoprefixer": "^10.4.17",
     "express": "^4.18.2",
     "pg": "^8.11.3",
-    "circom": "^2.1.8",
+    "circom": "^0.5.46",
     "snarkjs": "^0.7.0",
-    "@project-serum/anchor": "^0.28.0",
-    "@wormhole-foundation/wormhole-sdk": "^0.1.0"
+    "@project-serum/anchor": "^0.26.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
