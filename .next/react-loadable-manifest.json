@@ -1119,10 +1119,6 @@
       "static/chunks/src_components_SolanaWalletProvider_tsx.js"
     ]
   },
-  "../components/Layout.tsx -> @privy-io/react-auth": {
-    "id": "../components/Layout.tsx -> @privy-io/react-auth",
-    "files": []
-  },
   "../components/SolanaWalletProvider.tsx -> @solana/wallet-adapter-react": {
     "id": "../components/SolanaWalletProvider.tsx -> @solana/wallet-adapter-react",
     "files": []
