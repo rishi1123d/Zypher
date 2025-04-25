@@ -30,8 +30,15 @@
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.1",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
     "typescript": "^5.3.0"
   }
 }
